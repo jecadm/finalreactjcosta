@@ -20,5 +20,5 @@ https://test.etnias.com.ar/
 - firebase
 - react-toastify 
 
-##### Made with :purple_heart:morondanga jCosta
+#####  morondanga jCosta
 
