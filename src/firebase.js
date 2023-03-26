@@ -3,14 +3,14 @@ import { getAnalytics } from "firebase/analytics";
 import {getFirestore} from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCRbC6FnW1Gbpexnvyh-8HSvfpCKlwjKGM",
-  authDomain: "tiendamorondaga.firebaseapp.com",
-  projectId: "tiendamorondaga",
-  storageBucket: "tiendamorondaga.appspot.com",
-  messagingSenderId: "223350697889",
-  appId: "1:223350697889:web:38db0c1dd6edf7bb0565e0"
+  apiKey: "AIzaSyDl0OkdQtQWJDWBkR5Xo-BsVh--3VV4hWM",
+  authDomain: "mi-proyecto-f861f.firebaseapp.com",
+  projectId: "mi-proyecto-f861f",
+  storageBucket: "mi-proyecto-f861f.appspot.com",
+  messagingSenderId: "253410502400",
+  appId: "1:253410502400:web:a7dbe5c41a10ae4dca35e5",
+  measurementId: "G-MY5GC0DNBT"
 };
 
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 export const db = getFirestore(app);

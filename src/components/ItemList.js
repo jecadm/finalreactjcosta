@@ -6,9 +6,13 @@ import Item from './Item'
     <section className='row itemList'>
         {items.map((item) => {
             return <Item key={item.id} item={item}/>
+
         })}
+        
     </section>
+    
   )
+  
 }
 
 export default ItemList
