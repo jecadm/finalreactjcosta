@@ -23,5 +23,5 @@
 - firebase 9+
 - react-toastify 8+
 
-##### Made with :purple_heart: by Sasha Viering
+##### Made with :purple_heart:morondanga jCosta
 
