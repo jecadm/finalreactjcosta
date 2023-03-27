@@ -16,12 +16,16 @@ const ItemDetailContainer = () => {
     const filtro = query(productosCollection, where("id", "==", Number(itemId)))
     const pedido = getDocs(filtro)
 
+   
+
     pedido
       .then(res => setItem(res.docs[0].data()))
       .catch(() => toast.error("Error al cargar los productos"))
       .finally(() => setLoading(false))
     }, [ itemId])
 
+
+    
     if(loading){
       return( 
         <div className='d-flex justify-content-center'>
@@ -39,3 +43,5 @@ const ItemDetailContainer = () => {
  }
  
  export default ItemDetailContainer
+
+ 

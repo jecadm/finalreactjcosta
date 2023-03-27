@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom'
                     <h1 className='nav-brand'>Tienda de Morondanga</h1>
                 </Link>    
                     <li className='main-menu__item'>
-                        <a href='#' className='main-menu__link'>Home</a>
+                        <a href='/' className='main-menu__link'>Home</a>
                     </li>
                     <Link to="/" className='productos-navbar main-menu__link'>Productos</Link>
                     

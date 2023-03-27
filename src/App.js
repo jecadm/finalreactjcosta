@@ -1,8 +1,8 @@
 import React from 'react'
-import NavBar from "./components/NavBar"
-import Footer from "./components/Footer"
-import Main from './components/Main'
-import CartContext from './contexto/CartContext'
+import NavBar from "./Components/NavBar"
+import Footer from "./Components/Footer"
+import Main from './Components/Main'
+import CartContext from './Contexto/CartContextbk'
 import { ToastContainer } from "react-toastify"
 import { BrowserRouter } from 'react-router-dom'
 import 'react-toastify/dist/ReactToastify.css';

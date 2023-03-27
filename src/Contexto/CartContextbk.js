@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import App from "../App";
+
 
  export const contexto = createContext()
   

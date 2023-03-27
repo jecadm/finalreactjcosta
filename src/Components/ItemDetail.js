@@ -3,7 +3,7 @@ import ItemCount from './ItemCount'
 import {Link} from 'react-router-dom'
 import {useState} from 'react';
 import {useContext} from 'react'
-import { contexto } from '../contexto/CartContext';
+import { contexto } from '../Contexto/CartContextbk';
 
 
 const ItemDetail = ({ item }) => {
@@ -19,7 +19,7 @@ const ItemDetail = ({ item }) => {
   return (
     <div className='row container-detail p-5 mt-4'>
        <div>
-         <img src={item.image} className='img-box-detail'/>
+         <img src={item.image} className='img-box-detail' alt="" />
        </div>
        <div className='ml-5'>
           <p className='fontDetail'>{item.title}</p>
