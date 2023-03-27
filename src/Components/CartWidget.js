@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useContext } from 'react'
-import { contexto } from '../Contexto/CartContextbk'
+import { contexto } from '../Contexto/CartContext'
 
 const CartWidget = () => {
   const {cartCounter} = useContext(contexto)
